@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0168/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0168/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君金書內序
+  date: '2015-08-29 00:53:19.189662'
+  source:
+    repository: kanripo
+    path: KR5c0168
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0168_000-ZTDZ.yaml, hash: 'sha256:fc77c2581acbd363f7b063344fc40187036263e7f9b89881d22aeee470ff214a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0168_000-ZTDZ.markers.yaml, hash: 'sha256:dd7615835c4ab5cd60539c995b68f288cbdd5ccfef16673fbabfb44f99b9a67a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0168_SJB_000-170888c
+    span:
+    - body
+    - 0
+    - 1805
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:958d56609ec027b917bcbaefa4343553b4fc6bd735ea6b565d02f6e6d858192c

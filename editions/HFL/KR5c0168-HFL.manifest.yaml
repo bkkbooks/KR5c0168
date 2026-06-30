@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0168/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0168/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君金書內序
+  date: '2015-08-29 00:53:19.189662'
+  source:
+    repository: kanripo
+    path: KR5c0168
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0168_000-HFL.yaml, hash: 'sha256:b4006dea84c79f94d140f8fc1b1589c262231e440a5c981bdd2c8da7f9a6cc01'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0168_000-HFL.markers.yaml, hash: 'sha256:161a32da2653d76398f19b37ad4299cb67ca1c90fb91a86acd63537b5bc3621f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0168_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1805
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:39a8935e28ae1a01059ad9ae67243450b2943a8aa66764aacdce4ec80ed5eae2
